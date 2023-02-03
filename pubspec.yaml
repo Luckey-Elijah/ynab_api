@@ -1,0 +1,12 @@
+name: ynab_api
+description: Unofficial API for interacting with https://api.youneedabudget.com/
+version: 0.1.0
+repository: https://github.com/Luckey-Elijah/ynab_api
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dev_dependencies:
+  mocktail: ^0.3.0
+  test: ^1.19.2
+  very_good_analysis: ^3.1.0
