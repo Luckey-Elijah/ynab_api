@@ -17,5 +17,5 @@ dev_dependencies:
   json_serializable: ^6.6.1
   swagger_dart_code_generator: ^2.10.0
   test: ^1.19.2
-  very_good_analysis: ^3.1.0
+  very_good_analysis: ">=3.1.0 <5.0.0"
 
