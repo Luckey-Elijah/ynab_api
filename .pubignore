@@ -1,4 +1,4 @@
 tool/
 build/
 coverage/
-swaggers/
+swagger/

@@ -12,8 +12,8 @@ targets:
           separate_models: true
           build_only_models: true
           ignore_headers: true
-          input_folder: swaggers/
+          input_folder: swagger/
           output_folder: lib/generated/
           use_default_null_for_lists: false
-          input_urls:
-            - https://api.youneedabudget.com/papi/spec-v1-swagger.json
+          # input_urls:
+          #   - https://api.youneedabudget.com/papi/spec-v1-swagger.json
