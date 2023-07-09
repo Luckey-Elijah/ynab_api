@@ -1,21 +1,18 @@
 name: ynab_api
-description: Unofficial API for interacting with https://api.youneedabudget.com/
 version: 0.1.1
+description: Unofficial API for interacting with https://api.ynab.com/
 repository: https://github.com/Luckey-Elijah/ynab_api
 
 environment:
-  sdk: ">=2.19.0 <3.0.0"
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
-  chopper: ^6.0.0
-  collection: ^1.17.1
-  json_annotation: ^4.8.0
+  chopper: ^6.1.4
+  json_annotation: ^4.8.1
 
 dev_dependencies:
-  build_runner: ^2.3.3
-  chopper_generator: ^6.0.0
-  json_serializable: ^6.6.1
-  swagger_dart_code_generator: ^2.10.0
-  test: ^1.19.2
-  very_good_analysis: ^3.1.0
-
+  build_runner: ^2.4.6
+  chopper_generator: ^6.0.3
+  json_serializable: ^6.7.1
+  swagger_dart_code_generator: ^2.11.10
+  very_good_analysis: ^5.0.0+1
