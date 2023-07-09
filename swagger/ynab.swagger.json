@@ -2041,7 +2041,16 @@
     },
     "Category": {
       "type": "object",
-      "required": ["id", "category_group_id", "name", "hidden", "budgeted", "activity", "balance", "deleted"],
+      "required": [
+        "id",
+        "category_group_id",
+        "name",
+        "hidden",
+        "budgeted",
+        "activity",
+        "balance",
+        "deleted"
+      ],
       "properties": {
         "id": {
           "type": "string",
@@ -2545,7 +2554,15 @@
     },
     "TransactionSummary": {
       "type": "object",
-      "required": ["id", "date", "amount", "cleared", "approved", "account_id", "deleted"],
+      "required": [
+        "id",
+        "date",
+        "amount",
+        "cleared",
+        "approved",
+        "account_id",
+        "deleted"
+      ],
       "properties": {
         "id": {
           "type": "string"
@@ -2616,7 +2633,17 @@
         },
         "debt_transaction_type": {
           "type": "string",
-          "enum": ["payment", "refund", "fee", "interest", "escrow", "balancedAdjustment", "credit", "charge", null],
+          "enum": [
+            "payment",
+            "refund",
+            "fee",
+            "interest",
+            "escrow",
+            "balancedAdjustment",
+            "credit",
+            "charge",
+            null
+          ],
           "description": "If the transaction is a debt/loan account transaction, the type of transaction"
         },
         "deleted": {
@@ -2857,7 +2884,15 @@
     },
     "ScheduledTransactionSummary": {
       "type": "object",
-      "required": ["id", "date_first", "date_next", "frequency", "amount", "account_id", "deleted"],
+      "required": [
+        "id",
+        "date_first",
+        "date_next",
+        "frequency",
+        "amount",
+        "account_id",
+        "deleted"
+      ],
       "properties": {
         "id": {
           "type": "string",
@@ -3036,7 +3071,14 @@
     },
     "MonthSummary": {
       "type": "object",
-      "required": ["month", "income", "budgeted", "activity", "to_be_budgeted", "deleted"],
+      "required": [
+        "month",
+        "income",
+        "budgeted",
+        "activity",
+        "to_be_budgeted",
+        "deleted"
+      ],
       "properties": {
         "month": {
           "type": "string",
