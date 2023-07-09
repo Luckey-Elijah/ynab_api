@@ -2,18 +2,13 @@ targets:
   $default:
     sources:
       - lib/**
-      - swaggers/**
+      - swagger/**
     builders:
-      chopper_generator:
-        options:
-          header: "/* Generated code */"
       swagger_dart_code_generator:
         options:
           separate_models: true
           build_only_models: true
           ignore_headers: true
           input_folder: swagger/
-          output_folder: lib/generated/
+          output_folder: lib/
           use_default_null_for_lists: false
-          # input_urls:
-          #   - https://api.youneedabudget.com/papi/spec-v1-swagger.json
